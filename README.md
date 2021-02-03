@@ -67,7 +67,7 @@ The playbook implements the following tasks:
 - Download and launch a docker elk container
 - Enable service docker on boot
 
-The following screenshot displays the result of running [docker-ps](./diagram/docker-ps.png) after successfully configuring the ELK instance.
+The following screenshot displays the result of running [docker-ps](./diagram/docker-ps.PNG) after successfully configuring the ELK instance.
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
