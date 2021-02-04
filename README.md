@@ -89,4 +89,4 @@ SSH into the control node and follow the steps below:
 - [curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml]
 - Update the filebeat-config.yml [nano filebeat-config.yml] line 1106 and 1806 change the IP address to your ELK server internal IP address (10.1.0.4)
 - Run the playbook [ansible-playbook filebeat-playbook.yml], and navigate to http://[your.VM.Public.IP]:5601/app/kibana. 
-- Screenshot [Elk Server](./Ansible/Elk Server.docx)
+- Screenshot [Elk Server](./Ansible/Elk\ Server.docx)
