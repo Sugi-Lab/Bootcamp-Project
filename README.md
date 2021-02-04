@@ -71,12 +71,12 @@ The following screenshot displays the result of running [docker-ps](./Diagram/do
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
--Webserver-01 10.0.0.5
--Webserver-02 10.0.0.6
--Webserver-03 10.0.0.7
+- Webserver-01 10.0.0.5
+- Webserver-02 10.0.0.6
+- Webserver-03 10.0.0.7
 
 We have installed the following Beats on these machines:
--Elkserver 10.1.0.4
+- Elkserver 10.1.0.4
 
 These Beats allow us to collect the following information from each machine:
 - Beats send all log regarding a files. This can help us to keep track which files had been alter and when. 
